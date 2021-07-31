@@ -1,4 +1,4 @@
-# Calculator-without-eval
+# Calculator without eval
 implementing basic calculator to evaluate string expression without using built-in eval | javascript solution
 
 * eval fonmk kullanılmadan yazılan bir hesap makinesidir.
