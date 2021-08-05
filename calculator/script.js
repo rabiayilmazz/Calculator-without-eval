@@ -23,7 +23,6 @@ calculateInput.addEventListener('click', event => {
 			operation = operation.replace(j + "(", j + "*(");
 		}
 	}
-
 	resultInput.innerText = calculate(operation);
 });
 
