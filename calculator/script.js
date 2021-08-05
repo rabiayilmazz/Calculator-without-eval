@@ -14,8 +14,8 @@ calculateInput.addEventListener('click', event => {
 	for (var i = 0; i < operation.length; i++) {
 		operation = operation.replace(")(", ")*(");
 	}
-	
-	for(var j = 0; j < operation.length; j++){
+
+	for(var j = 0; j < 10; j++){
 		for (var i = 0; i < operation.length; i++) {
 			operation = operation.replace(")" + j, ")*" + j);
 		}
